@@ -4,8 +4,11 @@ import os
 import shutil
 import sys
 import SocketServer
+from datetime import datetime
+import livereload
 
 from pelican.server import ComplexHTTPRequestHandler
+from templates.post_template import TEMPLATE
 
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = 'output'
@@ -92,3 +95,38 @@ def gh_pages():
     rebuild()
     local("ghp-import -b {github_pages_branch} {deploy_path}".format(**env))
     local("git push origin {github_pages_branch}".format(**env))
+
+
+# User defined functions
+
+def make_entry(title):
+    today = datetime.today()
+    slug = title.lower().strip().replace(' ', '-')
+    f_create = "content/{}_{:0>2}_{:0>2}_{}.rst".format(
+        today.year, today.month, today.day, slug)
+    t = TEMPLATE.strip().format(title=title,
+                                hashes='#' * len(title),
+                                year=today.year,
+                                month=today.month,
+                                day=today.day,
+                                hour=today.hour,
+                                minute=today.minute,
+                                slug=slug)
+    with open(f_create, 'w') as w:
+        w.write(t)
+    print("File created -> " + f_create)
+
+
+def live_build(port=8080):
+
+    local('make clean')  # 1
+    local('make html')  # 2
+    os.chdir('output')  # 3
+    server = livereload.Server()  # 4
+    server.watch('../content/*.rst',  # 5
+        livereload.shell('pelican -s ../pelicanconf.py -o ../output'))  # 6
+    server.watch('../naffy/',  # 7
+        livereload.shell('pelican -s ../pelicanconf.py -o ../output'))  # 8
+    server.watch('*.html')  # 9
+    server.watch('*.css')  # 10
+    server.serve(liveport=35729, port=port)  # 11
