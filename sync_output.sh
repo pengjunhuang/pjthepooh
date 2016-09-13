@@ -1,2 +1,3 @@
 # personal use
-cp -r output/ ../github_page/
+rsync -az output/ ../github_page
+printf 'Done!\n'
