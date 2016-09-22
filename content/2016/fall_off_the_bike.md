@@ -1,11 +1,12 @@
 Title: Fall Off the Bike
 Date: 2016-09-17 20:20
-Modified: 2016-09-15 20:20
-Category: life
+Modified: 2016-09-17 20:20
+Category: Life
 Tags: life, biking, bicycling
 Slug: fall-off-the-bike
 Authors: PJ
 Summary:
+
 
 Today is a bad day. I fell off my bike (bicycle, not motorcycle), and it was my first time falling off. As I did not have any protection, except my helmet of course, and it was in a pretty damn fast speed, so my legs and knees were bruised. Most sadly, my bike crashed on the ground and the handler was deformed. Yup, I bought a new bike a month ago and was about to ride it to work on a daily basis. This morning I was trying to get familiar with the route from home to the office. 
  

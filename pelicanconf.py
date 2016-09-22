@@ -4,11 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = u'PJ'
 SITENAME = u'PJ the Pooh'
-SITEURL = ''
+SITEURL = 'http://localhost:8000'
+DISQUS_SITENAME = 'pjthepooh'
 
 # SITENAME = u'PJ the Pooh'
 # SITESUBTITLE = u'Enjoy the little things in life'
-SITE_LICENSE = u'PJ the Pooh 2016'
+
 
 ## Paths
 PATH = 'content'
@@ -35,8 +36,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Email', 'mailto:pjthepooh@gmail.com'),
+          ('Linkedin', 'https://www.linkedin.com/in/pjhuang'),
+          ('Facebook', 'https://www.facebook.com/peejay1110')
+          )
 
 DEFAULT_PAGINATION = 10
 
@@ -51,25 +54,59 @@ USE_FOLDER_AS_CATEGORY = False
 # Theme
 THEME = 'pelican-elegant'
 
-# Plugins
+# Plugins and extensions
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['sitemap', 'extract_toc', 'tipue_search',
            'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
            'liquid_tags.include_code', 'liquid_tags.notebook']
 
-EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
 
-# Post
-MARKUP = ['md']
-
-MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
+# Elegant theme
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 STATIC_PATHS = ['theme/images', 'images']
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
 
+# Elegant Labels
+COMMENTS_INTRO = u'Leave your comments below.'
+RELATED_POSTS_LABEL = 'Keep Reading'
+SOCIAL_PROFILE_LABEL = u'Keep in Touch'
+SHARE_POST_INTRO = u'Share on:'
+
+
+# Mailchimp
+# EMAIL_SUBSCRIPTION_LABEL = u'Get Monthly Updates'
+# EMAIL_FIELD_PLACEHOLDER = u'Enter your email...'
+# SUBSCRIBE_BUTTON_TITLE = u'Send me Free updates'
+# MAILCHIMP_FORM_ACTION = u'empty'
+
+
+
+EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+
+# Post
+MARKUP = ['md']
+
+
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
+
+
+SITE_LICENSE = u'&copy; PJ the Pooh 2016 '
 
 # Home Page
 LANDING_PAGE_ABOUT = {'title': 'Enjoy the little things in life',
@@ -78,3 +115,4 @@ LANDING_PAGE_ABOUT = {'title': 'Enjoy the little things in life',
                           """
                           I'm currently a data scientist working in Uber Technologies Inc.
                           """}
+
