@@ -113,6 +113,19 @@ LANDING_PAGE_ABOUT = {'title': 'Enjoy the little things in life',
 
                       'details':
                           """
-                          I'm currently a data scientist working in Uber Technologies Inc.
+                          <p>
+                          My name is PJ, born and raised in <a href="https://en.wikipedia.org/wiki/Guangzhou"> Guangzhou, China</a>. I'm currently a <a href="https://en.wikipedia.org/wiki/Data_science">data scientist</a> in <a href="(https://en.wikipedia.org/wiki/Silicon_Valley">Silicon Valley</a>, immersing myself in a world of science and new technology. I truly believe that most great decisions are driven by data. I'm willing to learn as much as I can to become a full-stack data scientist.</p>
+
+                          <p>
+                          I love sports such as swimming, basketball, snowboarding and bicycling. To be a better version of myself, I love to travel! My another big interest is teaching. I believe that sharing knowledge takes a key role in human society.
+                          </p>
+
+                          <p>
+                          As a first-generation immigrant in U.S., I would love to contribute my little effort to help the <a href="https://en.wikipedia.org/wiki/History_of_Chinese_Americans">Chinese immigrant</a> community.
+                          </p>
+
+                          <p>
+                          I speak Cantonese, Mandarin and English.
+                          </p>
                           """}
 

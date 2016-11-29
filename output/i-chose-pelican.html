@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="PJ" />
+        <meta name="copyright" content="PJ" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="blog, pelican, python, web development, Geek, " />
+
+<meta property="og:title" content="I Chose Pelican "/>
+<meta property="og:url" content="http://www.pjthepooh.com/i-chose-pelican.html" />
+<meta property="og:description" content="" />
+<meta property="og:site_name" content="PJ the Pooh" />
+<meta property="og:article:author" content="PJ" />
+<meta property="og:article:published_time" content="2016-09-25T20:20:00-07:00" />
+<meta property="" content="2016-09-25T20:20:00-07:00" />
+<meta name="twitter:title" content="I Chose Pelican ">
+<meta name="twitter:description" content="">
+
+        <title>I Chose Pelican  · PJ the Pooh
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://www.pjthepooh.com/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://www.pjthepooh.com/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://www.pjthepooh.com/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://www.pjthepooh.com/theme/css/custom.css" media="screen">
+        <link href="http://www.pjthepooh.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="PJ the Pooh - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://www.pjthepooh.com/"><span class=site-name>PJ the Pooh</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://www.pjthepooh.com">Home</a></li>
+                            <li ><a href="http://www.pjthepooh.com/pages/../about.html">About</a></li>
+                            <li ><a href="http://www.pjthepooh.com/categories.html">Categories</a></li>
+                            <li ><a href="http://www.pjthepooh.com/tags.html">Tags</a></li>
+                            <li ><a href="http://www.pjthepooh.com/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://www.pjthepooh.com/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="http://www.pjthepooh.com/i-chose-pelican.html"> I Chose Pelican  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+    <div class="span2 table-of-content">
+        <nav>
+        <h4>Contents</h4>
+        <div class="toc">
+<ul>
+<li><a href="#static-or-dynamic">Static or Dynamic</a></li>
+<li><a href="#django">Django</a></li>
+<li><a href="#wordpress">Wordpress</a></li>
+<li><a href="#pelican">Pelican</a></li>
+<li><a href="#ending">Ending</a></li>
+</ul>
+</div>
+        </nav>
+    </div>
+    <div class="span8 article-content">
+
+            
+            <!--Status: draft-->
+
+<p>I have been thinking about making a personal website for awhile, but just could not find time to actually work on it. It takes time but I know it is worth it. A month ago, I was struggling on what framework to use and where to host it. Until recently, I learned and tried three different frameworks and finally decided what is the best for me. </p>
+<h1 id="static-or-dynamic">Static or Dynamic</h1>
+<p>This was the first question I asked myself. I was biased to dynamic because I want my website to connect with a database, though it is not necessary. The process of setting up the whole dynamic website would definitely help me explore a new area in my life. There is a short way and a long way to accomplish it. The short way is to use a web-hosting service such as Wordpress, Blogger and Weebly; while the long is to build it myself using some web development platform.</p>
+<p>Anyway, I chose static at the end. Below are the reasons. </p>
+<h1 id="django">Django</h1>
+<p>One of the main purposes I'm making a website is trying to learn new things through the process, so of course the drag-and-click feature is not something I would look for. At first I started to learn django. After two weeks of researching online materials, I was able to make a decent skelton successfully connecting to a database, but I was exhausted and not satisfied. I think django is an overkill for my website. Although django is great for professional web development, the investment of learning this framework does not give me a quick pay back. The learning process did help me build a good understanding of web development; I gave up though. </p>
+<h1 id="wordpress">Wordpress</h1>
+<p>Using a hosting server, users are able to SSH the server but do not have permission to install applications. Plus, it is costly compared to other approaches. I decided to give it a try and installed wordpress in my AWS EC2 micro. That way at least I would have full control and be able to play around with MySQL. Things went pretty well in the first couple days, but my server began to suffer running out of RAM soon after. In the following week, I kept trying many different ways to optimize the configuration of the web, PHP, and database, nothing seemed to work. I finally moved the database to an RDS instance, but my website was still not able to be hosted smoothly, loading very slowly and even timing out. As it was too annoying, I decided to move to a static web.   </p>
+<h1 id="pelican">Pelican</h1>
+<p>For static website, there are several popular platforms, e.g. <a href="https://hexo.io/">Hexo</a> (javascript), <a href="https://jekyllrb.com/">Jekyll</a> (ruby) and <a href="http://blog.getpelican.com/">Pelican</a> (python). Users only need to know some basic syntax of the language to begin. I picked pelican simply because it is written in python. All of these frameworks have a large community of developers and users, so there are tons of themes and plugins available. </p>
+<p>The initial setup of Pelican is simple and it will provide a dummy template to begin with; however, I did need to spend some time on customization and settings. With Pelican's simplicity, I can focus on my writing and not being distracted by thinking how to format my post because the theme does all the jobs for me. If I want to edit the theme, it is easy enough too. So far from writing to deploying a new post, I do not need to touch the mouse, which is a pretty smooth process. </p>
+<h1 id="ending">Ending</h1>
+<p>Last month was all about trial and error. In the end I was able to learn new things. Most importantly I built my website the way I like. Of course there are some downsides of using Pelican, but I can bear them. I may write up a post about how to build a blog with Pelican later :) </p>
+            
+            <section>
+<p id="comment-message">Leave your comments below. </p>
+<div class="accordion" id="accordion2">
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle disqus-comment-count" data-toggle="collapse" data-parent="#accordion2"
+                href="http://www.pjthepooh.com/i-chose-pelican.html#disqus_thread">
+                Comments
+            </a>
+        </div>
+        <div id="disqus_thread" class="accordion-body collapse">
+            <div class="accordion-inner">
+                <div class="comments">
+                    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'pjthepooh';
+        var disqus_identifier = 'http://www.pjthepooh.com/i-chose-pelican.html';
+    var disqus_url = 'http://www.pjthepooh.com/i-chose-pelican.html';
+
+    (function() {
+         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+            <hr/>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2016-09-25T20:20:00-07:00">Sep 25, 2016</time>
+
+<h4>Last Updated</h4>
+<time datetime="2016-09-25T20:20:00-07:00">Sep 25, 2016</time>
+
+            <h4>Category</h4>
+            <a class="category-link" href="http://www.pjthepooh.com/categories.html#geek-ref">Geek</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="http://www.pjthepooh.com/tags.html#blog-ref">blog
+                    <span>3</span>
+</a></li>
+                <li><a href="http://www.pjthepooh.com/tags.html#pelican-ref">pelican
+                    <span>2</span>
+</a></li>
+                <li><a href="http://www.pjthepooh.com/tags.html#python-ref">python
+                    <span>3</span>
+</a></li>
+                <li><a href="http://www.pjthepooh.com/tags.html#web-development-ref">web development
+                    <span>1</span>
+</a></li>
+            </ul>
+<h4>Keep in Touch</h4>
+    <a href="mailto:pjthepooh@gmail.com" title="My Email Address" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-envelope sidebar-social-links"></i></a>
+    <a href="https://www.linkedin.com/in/pjhuang" title="My Linkedin Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-linkedin sidebar-social-links"></i></a>
+    <a href="https://www.facebook.com/peejay1110" title="My Facebook Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-facebook sidebar-social-links"></i></a>
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-license">&copy; PJ the Pooh 2016 </li>
+
+
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+            <script type="text/javascript">
+var disqus_shortname = 'pjthepooh';
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+<script  language="javascript" type="text/javascript">
+function uncollapse() {
+    if (window.location.hash.match(/^#comment-\d+$/)) {
+        $('#disqus_thread').collapse('show');
+    }
+}
+</script>
+<script type="text/javascript" language="JavaScript">
+uncollapse();
+window.onhashchange=function(){
+    if (window.location.hash.match(/^#comment-\d+$/))
+        window.location.reload(true);
+}
+</script>
+<script>
+$('#disqus_thread').on('shown', function () {
+    var link = document.getElementsByClassName('accordion-toggle');
+    var old_innerHTML = link[0].innerHTML;
+    $(link[0]).fadeOut(500, function() {
+        $(this).text('Click here to hide comments').fadeIn(500);
+    });
+    $('#disqus_thread').on('hidden', function () {
+        $(link[0]).fadeOut(500, function() {
+            $(this).text(old_innerHTML).fadeIn(500);
+        });
+    })
+})
+</script>
+
+
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>
