@@ -8,7 +8,6 @@ Authors: PJ
 Summary:
 <!--Status: draft-->
 
-[TOC]
 
 I have been thinking about making a personal website for awhile, but just could not find time to actually work on it. It takes time but I know it is worth it. A month ago, I was struggling on what framework to use and where to host it. Until recently, I learned and tried three different frameworks and finally decided what is the best for me. 
 

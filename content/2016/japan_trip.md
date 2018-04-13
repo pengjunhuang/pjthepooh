@@ -8,9 +8,6 @@ Authors: YM, PJ
 Summary:
 
 
-[TOC]
-
-
 Recently several of my friends asked me for tips on Japan because they have planed or are going to plan their first Japan trip, like I did half a year ago. My girlfriend outlined our trip previously so I decided to share it.
 
 # Introduction

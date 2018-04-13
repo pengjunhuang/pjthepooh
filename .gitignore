@@ -39,8 +39,8 @@
 
 # OS generated files #
 ######################
-.DS_Store
-.DS_Store?
+*.DS_Store
+*.DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
@@ -60,3 +60,7 @@ Thumbs.db
 .xml
 .ipynb_checkpoints/
 .idea/
+
+# Directories #
+./output/
+.virtualenv/

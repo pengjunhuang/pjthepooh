@@ -36,7 +36,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('Email', 'mailto:pjthepooh@gmail.com'),
+SOCIAL = (('Email', 'mailto:huangpj1110@gmail.com'),
           ('Linkedin', 'https://www.linkedin.com/in/pjhuang'),
           ('Facebook', 'https://www.facebook.com/peejay1110')
           )
@@ -59,7 +59,8 @@ PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['sitemap', 'extract_toc', 'tipue_search',
            'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
-           'liquid_tags.include_code', 'liquid_tags.notebook']
+           'liquid_tags.include_code', 'liquid_tags.notebook',
+           'pelican-toc']
 
 SITEMAP = {
     'format': 'xml',
@@ -106,7 +107,7 @@ MARKUP = ['md']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 
 
-SITE_LICENSE = u'&copy; PJ the Pooh 2016 '
+SITE_LICENSE = u'&copy; PJ the Pooh 2016'
 
 # Home Page
 LANDING_PAGE_ABOUT = {'title': 'Enjoy the little things in life',
@@ -129,3 +130,14 @@ LANDING_PAGE_ABOUT = {'title': 'Enjoy the little things in life',
                           </p>
                           """}
 
+TOC = {
+    'TOC_HEADERS'       : '^h[1-6]', # What headers should be included in
+                                     # the generated toc
+                                     # Expected format is a regular expression
+
+    'TOC_RUN'           : 'true',    # Default value for toc generation,
+                                     # if it does not evaluate
+                                     # to 'true' no toc will be generated
+
+    'TOC_INCLUDE_TITLE': 'false',     # If 'true' include title in toc
+}
