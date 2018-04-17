@@ -60,7 +60,9 @@ PLUGINS = ['sitemap', 'extract_toc', 'tipue_search',
            'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
            'liquid_tags.include_code', 'liquid_tags.notebook',
-           'pelican-toc']
+           'pelican-toc', 'render_math']
+
+MATH_JAX = {'color':'blue', 'align': 'left'}
 
 SITEMAP = {
     'format': 'xml',
