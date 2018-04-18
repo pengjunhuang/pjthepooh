@@ -21,6 +21,7 @@ Summary:
 * Greedy Function Approximation: A GRadient Boosting Machine [[pdf](https://statweb.stanford.edu/~jhf/ftp/trebst.pdf)]
 * Machine Learning Yearning-Draft V0.5, *Andrew Ng* [[pdf](https://tensorflowkorea.files.wordpress.com/2016/12/machine_learning_yearning_v0-5.pdf)]
 * SMOTE: Synthetic Minority Over-sampling Technique [[pdf](https://www.jair.org/media/953/live-953-2037-jair.pdf)]
+* Understanding variable importances in forests of randomized trees [[pdf](https://papers.nips.cc/paper/4928-understanding-variable-importances-in-forests-of-randomized-trees.pdf)]
 
 ### Deep Learning
 * Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing [[pdf](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)]
