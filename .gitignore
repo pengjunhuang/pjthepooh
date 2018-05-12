@@ -64,3 +64,4 @@ Thumbs.db
 # Directories #
 .output/
 .virtualenv/
+sync_output.sh
