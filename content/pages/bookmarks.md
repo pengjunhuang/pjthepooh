@@ -18,10 +18,12 @@ Summary:
 
 ### Machine Learning
 * Introduction to Boosted Trees [[html](http://xgboost.readthedocs.io/en/latest/model.html), [slides](https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf)]
-* Greedy Function Approximation: A GRadient Boosting Machine [[pdf](https://statweb.stanford.edu/~jhf/ftp/trebst.pdf)]
+* Greedy Function Approximation: A Gradient Boosting Machine [[pdf](https://statweb.stanford.edu/~jhf/ftp/trebst.pdf)]
 * Machine Learning Yearning-Draft V0.5, *Andrew Ng* [[pdf](https://tensorflowkorea.files.wordpress.com/2016/12/machine_learning_yearning_v0-5.pdf)]
 * SMOTE: Synthetic Minority Over-sampling Technique [[pdf](https://www.jair.org/media/953/live-953-2037-jair.pdf)]
 * Understanding variable importances in forests of randomized trees [[pdf](https://papers.nips.cc/paper/4928-understanding-variable-importances-in-forests-of-randomized-trees.pdf)]
+* A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise [[pdf](http://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf)]
+* XGBoost: A Scalable Tree Boosting System [[pdf](https://arxiv.org/pdf/1603.02754.pdf)]
 
 ### Deep Learning
 * Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing [[pdf](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)]
@@ -36,6 +38,8 @@ Summary:
 * Hosting a Static Website on AWS [[html](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html)]
 * Virtualenv's `bin/activate` is Doing It Wrong [[github](https://gist.github.com/datagrok/2199506)]
 * SQL in 24 Hours [[pdf](http://ptgmedia.pearsoncmg.com/images/9780672335419/samplepages/0672335417.pdf)]
+* Data Science Algorithm Tutorials from Topcoder [[link](https://www.topcoder.com/community/data-science/data-science-tutorials/)]
+* Distributed Time Travel for Feature Generation (Netflix Tech Blog) [[link](https://medium.com/netflix-techblog/distributed-time-travel-for-feature-generation-389cccdd3907)]
 
 ### Tools
 * The Ultimate Vim Distribution, *spf13-vim* [[link](http://vim.spf13.com/)]
