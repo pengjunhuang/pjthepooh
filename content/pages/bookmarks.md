@@ -32,6 +32,7 @@ Summary:
 * Word2Vec Tutorial - The Skip-Gram Model [[link](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)]
 * Deep Learning the Stock Market [[link](https://medium.com/@TalPerry/deep-learning-the-stock-market-df853d139e02)]
 * Understanding LSTM Networks [[link](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)]
+* OpenAI Gym [[link](https://gym.openai.com/)]
 * Lilian's blog [[link](https://lilianweng.github.io/lil-log/)]
 
 ### Engineering
